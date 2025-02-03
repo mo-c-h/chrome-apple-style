@@ -1,0 +1,29 @@
+/* Apple風のウィンドウデザイン */
+body {
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #e8e8ed;
+    color: #1d1d1f;
+}
+
+/* macOS風のボタン */
+button {
+    border-radius: 12px;
+    background: linear-gradient(to bottom, #f5f5f7, #d1d1d6);
+    border: 1px solid #bcbcc0;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #e5e5ea;
+}
+
+/* タブのようなデザイン */
+.tab {
+    background-color: #f5f5f7;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
